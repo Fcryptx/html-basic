@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/icon.png">
+	<title>HTML Basic</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Basico</h1>
+        <nav id="nav-fixed">
+            <ol>
+                <li>
+                    <a href="#Inicio">Inicio</a>
+                </li>
+                <li>
+                   <a href="#Fundamentos">Fundamentos</a>
+                </li>
+                <li>
+                    <a href="atribute.html">Atributos</a>
+                </li>
+                <li>
+                    <a href="tag.html">Etiquetas</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <h2 id="Inicio">Que es HTML?</h2>
+            <p>
+(HyperText Markup Language) es el lenguaje estándar utilizado para crear y diseñar páginas web. Es un lenguaje de marcado que se utiliza para estructurar el contenido de una página web, incluyendo texto, imágenes, enlaces, formularios y otros elementos multimedia.
+            </p>
+        <article id="Fundamentos">
+            <h2>Fundamentos de HTML</h2>
+            <ol>
+                <li>
+                    <h3>Etiquetas y elementos: </h3>
+                    <p>HTML utiliza etiquetas para definir diferentes tipos de contenido en una página web. Por ejemplo, la etiqueta &lt;p&gt; se utiliza para definir un párrafo de texto, &lt;h1&gt; a &gt;h6&gt; se utilizan para encabezados de diferentes tamaños, &lt;img&gt; se utiliza para insertar imágenes, etc. &lt;/p&gt;
+                </li>
+                <li>
+                    <h3>Estructura básica:</h3>
+                    <p>Toda página HTML comienza con la etiqueta &lt;html&gt; y tiene dos secciones principales: &lt;head&gt; y &lt;body&gt;. El &lt;head&gt; contiene metadatos, como el título de la página y enlaces a archivos externos, mientras que el &lt;body&gt; contiene el contenido visible de la página.
+</p>
+                </li>
+                <li>
+                    <h3>Atributos:</h3>
+                    <p>Las etiquetas HTML pueden tener atributos que proporcionan información adicional sobre el elemento. Por ejemplo, la etiqueta &lt;img&gt; tiene el atributo src que especifica la ruta de la imagen a mostrar.&lt;/p&gt;
+                </li>
+                <li>
+                    <h3>Enlaces:</h3>
+                    <p> Los enlaces (&lt;a&gt;) se utilizan para crear hipervínculos a otras páginas web o recursos en la misma página.&lt;/p&gt;
+                </li>
+                <li>
+                    <h3>Listas:</h3>
+                    <p>HTML permite crear listas ordenadas (&lt;ol&gt;), listas desordenadas (&lt;ul&gt;), y listas de definición (&lt;dl&gt;).</p>
+                </li>
+                <li>
+                 <h3>Formularios:</h3>
+                <p> Los formularios (&lt;form&gt;) se utilizan para recopilar datos del usuario. Pueden contener campos de entrada de texto, botones, casillas de verificación, botones de opción y más.</p>
+                </li>
+                <li>
+                    <h3>Comentarios:</h3>
+                    <p>Puedes incluir comentarios en tu código HTML utilizando la sintaxis &lt;!-- comentario --&gt;. Los comentarios son útiles para hacer notas sobre tu código para referencia futura o para explicar partes del código a otros desarrolladores.</p>
+                </li>
+            </ol>
+        </article>
+        <article id="Encabezado">
+            <h2>Encabezados</h2>
+            <p>Los encabezados en HTML son elementos utilizados para definir los títulos o subtítulos de una página web. Estos elementos se utilizan para estructurar y organizar el contenido de una manera jerárquica, lo que ayuda a los usuarios y a los motores de búsqueda a comprender la estructura y la importancia relativa de diferentes secciones de la página.</p>
+            <br>
+            <p class="p-1">
+                En HTML, los encabezados se representan mediante las etiquetas &lt;h1&gt; a &lt;h6&gt;, donde &lt;h1&gt; es el encabezado más importante y &lt;h6&gt; es el menos importante. El texto dentro de estas etiquetas se visualiza generalmente con un tamaño de fuente más grande y/o en negrita, dependiendo de cómo se haya definido con CSS.
+            </p>
+            <br>
+            <p>Por ejemplo:</p>
+            <ol>
+                <li>
+                        &lt;h1&gt;: se utiliza para el título principal de la página.
+                </li>
+                <li>
+                        &lt;h2&gt;: se utiliza para subtítulos importantes que están subordinados al título principal.
+                </li>
+                <li>
+                        &lt;h3&gt; a &lt;h6&gt;: se utilizan para títulos y subtítulos adicionales con una jerarquía de importancia descendente.
+                </li>
+            </ol>
+        </article>
+        <article>
+            <h2>Parrafos</h2>
+            <p>Los párrafos en HTML son elementos utilizados para agrupar y presentar texto en bloques coherentes. Estos elementos permiten estructurar el contenido textual de una página web, lo que facilita la lectura y comprensión del mismo por parte de los usuarios.</p>
+            <br>
+            <p>En HTML, los párrafos se representan mediante la etiqueta &lt;p&gt;. El texto contenido dentro de la etiqueta &lt;p&gt; se considera un párrafo y se muestra generalmente con un espaciado vertical adicional tanto antes como después del mismo, para indicar claramente dónde comienza y termina el párrafo.</p>
+            <br>
+            <p>Aquí tienes un ejemplo de cómo se utiliza la etiqueta de párrafo en HTML:</p>
+            <ol>
+                <li>
+                         &lt;p&gt;Este es un parrafo de texto&lt;/p&gt;
+                </li>
+                <li>
+                         &lt;p&gt;Este es otro parrrafo de texto&lt;/p&gt;
+                </li>
+            </ol>
+        </article>
+        <article>
+            <h2>Enlaces</h2>
+            <p>Los enlaces en HTML son elementos que permiten a los usuarios navegar de una página web a otra o acceder a diferentes secciones de la misma página web. También se les conoce como hipervínculos. Los enlaces se crean utilizando la etiqueta &lt;a&gt; (anchor), que tiene un atributo href (hipertext reference) que especifica la dirección URL a la que se debe dirigir el enlace.</p>
+            <br>
+            <p>Aquí tienes un ejemplo de cómo se utiliza la etiqueta de enlace en HTML:</p>
+            <ol>
+                <li>
+                    <h3>Estructura de la etiqueta de enlace:</h3>
+                </li>
+                <li>
+                    &lt;a href="https://google.com"&gt;Visita Google Aqui&lt;/a&gt;
+                </li>
+                <li>
+                     <a href="https://google.com">Visita Google Aqui</a>
+                </li>
+            </ol>
+        </article>
+        <article>
+            <h2>Listas</h2>
+            <p>En HTML, las listas son elementos utilizados para organizar y presentar información de manera estructurada y jerárquica. Hay tres tipos principales de listas en HTML:</p>
+            <ol>
+                <li>
+                    <h3>Listas Ordenadas (&lt;ol&gt;):</h3>
+                    <p>Representan una secuencia de elementos ordenados y se muestran con números o letras. Cada elemento de la lista se define mediante la etiqueta &lt;li&gt; (elemento de lista). El navegador asigna automáticamente los números o letras según el orden en que se definen los elementos &lt;li&gt;.</p>
+                </li>
+                <li><p>Ejemplo:</p>
+                <pre>
+                    
+&lt;ol&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ol&gt;
+                </pre></li>
+                <li>
+                    <h3>Listas Desordenadas (&lt;ul&gt;):</h3>
+                    <p>Representan una colección de elementos sin orden específico y se muestran con viñetas o puntos. Al igual que con las listas ordenadas, cada elemento de la lista se define mediante la etiqueta &lt;li&gt;.
+</p>
+                </li>
+                <li><p>Ejemplo:</p>
+                <pre>
+
+&lt;ul&gt;
+        &lt;li&gt;Elemento x&lt;/ul&gt;
+        &lt;li&gt;Elemento x&lt;/ul&gt;
+        &lt;li&gt;Elemento x&lt;/ul&gt;
+&lt;/ul&gt;
+                </pre></li>
+                <li>
+                    <h3>Listas de Definición (&lt;dl&gt;):</h3>
+                    <p>Consisten en términos (definiciones) y sus respectivas descripciones. Cada término se define mediante la etiqueta &lt;dt&gt; (término de definición), y cada descripción se define mediante la etiqueta &lt;dd&gt; (descripción de definición).</p>
+                </li>
+                <li><p>Ejemplo:</p>
+                <pre>
+&lt;dl&gt;
+        &lt;dt&gt;Término 1&lt;/dt&gt;
+        &lt;dd&gt;Descripción de Término 1&lt;/dd&gt;
+        &lt;dt&gt;Término 2&lt;/dt&gt;
+        &lt;dd&gt;Descripción de Término 2&lt;/dd&gt;
+&lt;/dl&gt;
+                </pre></li>
+            </ol>
+        </article>
+        <article>
+            <h2>Tablas</h2>
+            <p>En HTML, las tablas son elementos utilizados para organizar y presentar datos en filas y columnas, de manera similar a una hoja de cálculo. Permiten representar información de forma estructurada y ordenada, lo que facilita la lectura y comprensión de los datos por parte de los usuarios.</p>
+            <br>
+            <p>Las tablas en HTML se crean utilizando una combinación de etiquetas específicas, que incluyen:
+</p>
+            <ol>
+                <li>
+                    <pre>
+&lt;table&gt;: Define una tabla en HTML.
+&lt;tr&gt;: Define una fila en la tabla.
+&lt;td&gt;: Define una celda de datos regular en la fila.
+&lt;th&gt;: Define una celda de encabezado en la fila.
+                   </pre>
+                </li>
+            </ol>
+            <table style="border: 1px solid #000;">
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Edad</td>
+                        <td>Ingresos</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan</td>
+                        <td>29</td>
+                        <td>$2500</td>
+                    </tr>
+                    <tr>
+                        <td>Alan</td>
+                        <td>30</td>
+                        <td>$5000</td>
+                    </tr>
+                    <tr>
+                        <td>Eduardo</td>
+                        <td>24</td>
+                        <td>$8000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>Formularios</h2>
+            <p>En HTML, los formularios son elementos que permiten a los usuarios enviar datos a un servidor web para su procesamiento. Los formularios son una parte fundamental de muchas páginas web interactivas, ya que permiten a los usuarios ingresar información y realizar acciones, como enviar mensajes, realizar búsquedas, registrarse en un sitio web, completar encuestas, entre otras cosas.</p>
+            <br>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Ingrese su nombre:">
+                <br>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" placeholder="Ingrese su correo">
+                <br>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" placeholder="Ingrese su edad">
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Ingrese su contraseña">
+                <br>
+                <label for="sexo">Sexo</label>
+                <select id="sexo">
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <h3>La estructura deberia de ser asi:</h3>
+            <div class="caja-1">
+            <pre id="pre-1">
+                
+&lt;form&gt;
+    &lt;label for="name">Nombre:&lt;/label&gt;
+    &lt;input type="text" id="name""&gt;
+    &lt;br&gt;
+    &lt;label for="correo">Correo:&lt;/label&gt;
+    &lt;input type="email" id="email" gt;
+    &lt;br&gt;
+    &lt;label for="edad">Edad:&lt;/label&gt;
+    &lt;input type="number" id="edad"&gt;
+    &lt;br&gt;
+    &lt;label for="password">Contraseña:&lt;/label&gt;
+    &lt;input type="password" id="password" &gt;
+    &lt;br&gt;
+    &lt;label for="sexo">Sexo&lt;/label>&gt;
+    &lt;select&gt;
+    &lt;option&gt;Hombre&lt;/option&gt;
+    &lt;option&gt;Mujer&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;input type="submit" placeholder="Enviar"&gt;
+&lt;/form&gt;  
+            </pre>
+                </div>
+        </article>
+    <footer>
+    </footer>
+</body>
+</html>
